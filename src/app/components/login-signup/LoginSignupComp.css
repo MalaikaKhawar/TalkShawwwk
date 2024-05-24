@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "font01";
+  src: url(/font01.woff2) format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "font01", sans-serif;
+  background-color: #f3f4f6;
+  overflow: hidden;
+  background: hsla(59, 86%, 68%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(59, 86%, 68%, 1) 0%,
+    hsla(134, 36%, 53%, 1) 100%
+  );
+}
+a {
+  text-decoration: none;
+  color: #1177d1;
+}
+.box {
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0px 10px 15px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.box h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.box .welEmoji {
+  font-size: 30px;
+}
+.box .loginDesc {
+  font-size: 14px;
+  text-align: center;
+  color: #525050ed;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.box input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: inherit;
+  font-family: inherit;
+  margin-top: 11px;
+  outline: none;
+  border: 1.5px solid rgba(128, 128, 128, 0.506);
+  border-radius: 5px;
+}
+.box input:active,
+.box input:focus {
+  border: 1.4px solid black;
+}
+.box .forgetText {
+  color: #3259e8;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 3px;
+  align-self: end;
+}
+.box .forgetText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.box button {
+  width: 100%;
+  height: 43px;
+  font-family: inherit;
+  background-color: black;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.box button:hover {
+  background-color: rgba(0, 0, 0, 0.858);
+}
+.box .signupOffer {
+  margin-top: 8px;
+  font-size: 15px;
+}
+.box .signupOfferText {
+  margin: 0;
+  color: #3259e8;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.box .signupOfferText:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+body {
+  background: hsla(59, 86%, 68%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(59, 86%, 68%, 1) 0%,
+    hsla(134, 36%, 53%, 1) 100%
+  );
+}
