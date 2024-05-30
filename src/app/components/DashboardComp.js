@@ -79,7 +79,7 @@ export default function DashboardComp() {
               ></div>
               <div className="profile_section_image">
                 <img
-                  src="https://media.licdn.com/dms/image/D4D03AQHLyMkFLcX38g/profile-displayphoto-shrink_400_400/0/1707164867049?e=1720051200&v=beta&t=glxUoP6fI9-gkdPssp4KTiZ1JIf5eaIesICLIvOLn4M"
+                  src="https://media.licdn.com/dms/image/D5603AQGJweHw4_EdLA/profile-displayphoto-shrink_800_800/0/1670074903293?e=1720051200&v=beta&t=4nCXYGM5qV2s9KX6eESotDsNAHRevM_tYtJERlTbqxQ"
                   alt="profile_image"
                 />
               </div>
@@ -166,7 +166,7 @@ export default function DashboardComp() {
 
                 <div className="message_bar_chat_area_top_section_info">
                   <p className="message_bar_chat_area_top_section_info_name">
-                    Muhammad Arhum
+                      {currentUser.name}
                   </p>
                   <p className="message_bar_chat_area_top_section_info_last_online">
                     Last online 6 hours ago
